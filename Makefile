@@ -6,13 +6,13 @@
 #    By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/17 14:16:15 by mkoyamba          #+#    #+#              #
-#    Updated: 2022/02/17 16:42:42 by mkoyamba         ###   ########.fr        #
+#    Updated: 2022/02/17 17:29:27 by mkoyamba         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 FLAGS = -Wall -Wextra -Werror
 
-NAME = ft_printf.a
+NAME = libftprintf.a
 
 INCLUDES = ft_printf.h
 

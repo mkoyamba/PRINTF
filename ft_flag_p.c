@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 14:32:41 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/17 16:41:10 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/17 17:35:50 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,6 @@ void	ft_flag_p(va_list args, int *nb)
 	unsigned long int	n;
 
 	*nb = *nb + write(1, "0x", 2);
-	n = va_arg(args, unsigned int);
+	n = va_arg(args, unsigned long int);
 	ft_putnbr_hex(n, nb);
 }
