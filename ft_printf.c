@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 13:44:41 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/17 18:39:18 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/17 18:46:24 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,8 +36,6 @@ int	ft_printf(const char *str, ...)
 		ft_flag_perc, ft_flag_s, ft_flag_u, ft_flag_x, ft_flag_bx};
 	int				x;
 
-	if (!str)
-		return (-1);
 	va_start(args, str);
 	nb = 0;
 	x = 0;
