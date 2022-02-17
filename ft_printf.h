@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 13:36:54 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/17 16:44:16 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/17 17:47:47 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 # include <stdarg.h>
 # include <stddef.h>
 
-/*  		==================(      MACROS      )==================		  */
+/*  		==================(  MACROS/TYPEDEF  )==================		  */
 
 typedef void	(*t_tabp)(va_list, int *);
 
