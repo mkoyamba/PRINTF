@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 13:44:41 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/17 15:41:49 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/17 16:34:00 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,15 +51,4 @@ int	ft_printf(const char *str, ...)
 		x++;
 	}
 	return (va_end(args), nb);
-}
-
-#include <stdio.h>
-
-int main(void)
-{
-	int i = 0;
-
-	i = printf("%c\n", '4');
-	printf("%d\n", i);
-	return (0);
 }
