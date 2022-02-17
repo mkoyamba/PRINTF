@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 13:36:54 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/17 15:52:02 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/17 16:44:16 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ typedef void	(*t_tabp)(va_list, int *);
 
 /*  		==================(    PROTOTYPES    )==================		  */
 
-int		ft_printf(const char *, ...);
+int		ft_printf(const char *str, ...);
 void	ft_flag_c(va_list args, int *nb);
 void	ft_flag_d(va_list args, int *nb);
 void	ft_flag_i(va_list args, int *nb);
@@ -34,6 +34,6 @@ void	ft_flag_perc(va_list args, int *nb);
 void	ft_flag_s(va_list args, int *nb);
 void	ft_flag_u(va_list args, int *nb);
 void	ft_flag_x(va_list args, int *nb);
-void	ft_flag_bX(va_list args, int *nb);
+void	ft_flag_bx(va_list args, int *nb);
 
 #endif

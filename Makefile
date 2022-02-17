@@ -6,7 +6,7 @@
 #    By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/02/17 14:16:15 by mkoyamba          #+#    #+#              #
-#    Updated: 2022/02/17 14:24:38 by mkoyamba         ###   ########.fr        #
+#    Updated: 2022/02/17 16:42:42 by mkoyamba         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,15 @@ NAME = ft_printf.a
 INCLUDES = ft_printf.h
 
 SRC =	ft_printf.c\
+		ft_flag_bx.c\
+		ft_flag_c.c\
+		ft_flag_d.c\
+		ft_flag_i.c\
+		ft_flag_p.c\
+		ft_flag_perc.c\
+		ft_flag_s.c\
+		ft_flag_u.c\
+		ft_flag_x.c\
 
 OBJ = $(SRC:.c=.o)
 

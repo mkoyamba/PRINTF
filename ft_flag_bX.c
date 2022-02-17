@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 14:49:18 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/17 16:22:53 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/17 16:43:24 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,9 +27,9 @@ static void	ft_putnbr_hex(unsigned long int n, int *nb)
 	*nb = *nb + write(1, &c, 1);
 }
 
-void	ft_flag_bX(va_list args, int *nb)
+void	ft_flag_bx(va_list args, int *nb)
 {
-	unsigned long int n;
+	unsigned long int	n;
 
 	n = va_arg(args, unsigned int);
 	ft_putnbr_hex(n, nb);

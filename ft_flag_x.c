@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 14:32:50 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/17 16:31:29 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/17 16:43:49 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ static void	ft_putnbr_hex(unsigned long int n, int *nb)
 
 void	ft_flag_x(va_list args, int *nb)
 {
-	unsigned long int n;
+	unsigned long int	n;
 
 	n = va_arg(args, unsigned int);
 	ft_putnbr_hex(n, nb);
