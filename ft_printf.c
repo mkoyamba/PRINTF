@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 13:44:41 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/17 16:42:49 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/17 17:55:20 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,5 +50,6 @@ int	ft_printf(const char *str, ...)
 			nb += write(1, str + x, 1);
 		x++;
 	}
-	return (va_end(args), nb);
+	va_end(args);
+	return (nb);
 }
