@@ -6,7 +6,7 @@
 /*   By: mkoyamba <mkoyamba@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/17 13:44:41 by mkoyamba          #+#    #+#             */
-/*   Updated: 2022/02/20 21:16:56 by mkoyamba         ###   ########.fr       */
+/*   Updated: 2022/02/21 10:40:08 by mkoyamba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ int	ft_printf(const char *str, ...)
 {
 	va_list			args;
 	int				nb;
-	t_tabp	tab[9] = {ft_flag_c, ft_flag_d, ft_flag_i, ft_flag_p,
+	static t_tabp	tab[9] = {ft_flag_c, ft_flag_d, ft_flag_i, ft_flag_p,
 		ft_flag_perc, ft_flag_s, ft_flag_u, ft_flag_x, ft_flag_bx};
 	int				x;
 
